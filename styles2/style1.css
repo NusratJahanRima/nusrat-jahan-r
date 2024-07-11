@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+.why-web-development {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.why-web-development h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.why-web-development p {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
+
+.card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+.right_side{
+    width: 65%;
+    height: auto;
+    
+    float: right;
+    padding: 20px 30px;
+    margin-left: 30px;
+
+}
+.left_side{
+    width: 30%;
+    height: auto;
+    
+    float: left;
+
+}
+
+.card img {
+    max-width: 100px;
+    margin-left: 1rem;
+    border-radius: 5px;
+}
+
+.card-content {
+    flex: 1;
+}
+
+.card-content h3 {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.card-content p {
+    font-size: 1rem;
+    margin: 0.5rem 0;
+}
+
+.card-content button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color:white;
+    
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.card-content button:hover {
+    background-color: #0056b3;
+}
